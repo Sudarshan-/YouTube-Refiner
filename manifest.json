@@ -1,0 +1,11 @@
+{
+
+  "name": "YouTube Refiner",
+	"description": "This sets YouTube videos to play with high volume and quality available by default and adds a shortcut to mute and unmute instantly",
+	"content_scripts": [{
+		"js": ["script.js"],
+		"matches": [ "http://*.youtube.com/*" ]
+	}]
+	"version": "1",
+  "manifest_version":1
+}
